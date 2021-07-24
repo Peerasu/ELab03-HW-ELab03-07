@@ -287,24 +287,6 @@ Leg(n)
 
 
 
-### เสาไฟกินรี 4 - น็อตบลูทูธ ###
-
-while True :
-  x = input()
-  if len(x)>=5 and len(x)<=50 :
-    break
-
-x = x.upper()
-
-if x[0] == x[-1]:
-  print('YES')
-  print(x[0])
-else:
-  print('NO')
-
-
-
-
 ### [Contractor] ผู้รับเหมาก่อสร้าง ###
 
 def inputShape():
@@ -368,3 +350,21 @@ elif shape == 5:
   v = calculatePyramid()
 
 calculatePrice(v)
+
+
+
+
+### เสาไฟกินรี 4 - น็อตบลูทูธ ###
+
+while True :
+  x = input()
+  if len(x)>=5 and len(x)<=50 :
+    break
+
+x = x.upper()
+
+if x[0] == x[-1]:
+  print('YES')
+  print(x[0])
+else:
+  print('NO')
